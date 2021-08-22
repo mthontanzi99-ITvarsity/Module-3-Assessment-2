@@ -1,0 +1,513 @@
+html{
+    height: 100%;
+}
+body{
+    height:100%;
+    background-color: #efefef;
+    margin:0;
+    padding:0;
+}
+hr{
+    border: 1px solid;
+}
+/*==========Header===========*/
+#header{
+    background-color: darkgray;
+    margin: 0;
+    padding: 5px;
+    position: fixed;
+    top:0;
+    left:0;
+    overflow: hidden;
+    width:100%;
+}
+#header h1{
+    text-decoration: underline;
+    font-size: 25px;
+    text-align: center;
+    font-family: ui-serif;
+    padding-right: 60px;
+}
+#header a{
+    color:black;
+    float: left;
+    text-decoration: none;
+    padding:25px 10px 5px 20px;
+    background-color: darkgray;
+    display: block;
+}
+
+/*==========home-main===========*/
+.home{
+    overflow: hidden;
+    height:100%;
+    margin:0;
+    padding:0;
+
+    background-image: url('images/bg_03.jpg');
+    background-image: center;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#home_main{
+    padding-top: 90px;
+    width:80%;
+    height: 100%;
+    margin:auto;
+    margin-bottom: 0;
+}
+#home_main table{
+    height:80%;
+    margin:auto;
+    width:50%;
+}
+#home_main th{
+    width: 200px;
+    height: 75px;
+    font-size: 35px;
+    border: 5px solid black;
+    margin: 10px;
+    text-align: center;
+}
+#home_main td{
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    border:2px dotted black;
+    margin: 10px;
+    text-align: center;
+}
+#home_main table a{
+    text-decoration: none;
+    color:white;
+}
+
+/*==========Main===========*/
+#main{
+    padding-top: 50px;
+    margin: auto;
+    width:90%;
+    height:100%;
+}
+#main table{
+    width:80%;
+    margin:auto;
+}
+#main h1{
+    font-weight: 500;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+/*============Main===========*/
+/*============Table===========*/
+#main td{
+    height: 40px;
+    border-bottom: 0.5px solid gray;
+}
+
+#left{
+    width:20%;
+    
+}
+#center{
+    width: 60%;
+}
+#right{
+    width: 10%;
+}
+
+#left img{
+    width: 100px;
+    height: 80px;
+}
+#main a{
+    color: black;
+}
+/*============Main===========*/
+/*============Main_Food===========*/
+#main_food{
+    padding-top: 90px;
+    width:80%;
+    margin:auto;
+}
+#main_food h2{
+    font-weight: 700;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#main_food img{
+    width: 400px;
+    height: 250px;
+}
+#main_food #extras h3{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(110, 12, 9);
+    color:white;
+}
+/*============Main_Sides===========*/
+#main_sides{
+    padding-top: 90px;
+    width:80%;
+    margin:auto;
+}
+#main_sides h2{
+    font-weight: 700;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#main_sides img{
+    width: 400px;
+    height: 250px;
+}
+#main_sides #extras h3{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(110, 103, 9);
+    color:white;
+}
+
+/*============Main_Salad===========*/
+#main_salad{
+    padding-top: 90px;
+    width:80%;
+    margin:auto;
+}
+#main_salad h2{
+    font-weight: 700;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#main_salad img{
+    width: 400px;
+    height: 250px;
+}
+#main_salad #extras h3{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(60, 110, 9);
+    color:white;
+}
+/*============Main_Drinks===========*/
+#main_drinks{
+    padding-top: 90px;
+    width:80%;
+    margin:auto;
+}
+#main_drinks h2{
+    font-weight: 700;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#main_drinks img{
+    width: 400px;
+    height: 250px;
+}
+#main_drinks #extras h3{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(179, 69, 146);
+    color:white;
+}
+
+/*============Main_Specials===========*/
+#main_specials{
+    padding-top: 90px;
+    width:80%;
+    margin:auto;
+}
+#main_specials h2{
+    font-weight: 700;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#main_specials img{
+    width: 400px;
+    height: 250px;
+}
+/*==================Price================*/
+#price{
+    text-align: right;
+}
+
+/*==================Forms================*/
+input{
+    width:100%;
+    height:20px;
+    margin: 12px 0;
+}
+textarea{
+    width:100%;
+    height:80px;
+    margin:12px 0;
+}
+#order h3{
+    text-align: center;
+    font-weight: bold;
+}
+button{
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+}
+
+/*==========Order===========*/
+.order{
+    padding-top:70px;
+    height:80%;
+    width:70%;
+    margin:auto;
+    border:2px double darkgrey;
+}
+.order img{
+    Width:100%;
+    padding: 2px;
+    margin: auto;
+}
+.order h2{
+    text-decoration: underline;
+    text-align: center;
+}
+.order p{
+    padding-left:3.5px;
+}
+
+/*==============Responsive Layout==========*/
+
+@media only screen and (min-width:600px){
+    /*=============main==========*/
+    #main{
+        padding-top: 50px;
+        margin: auto;
+        width:90%;
+        height:100%;
+    }
+    #main table{
+        width:80%;
+        margin:auto;
+    }
+    #main h1{
+        font-weight: 500;
+        text-align: center;
+        font-family:'Courier New', Courier, monospace;
+    }
+    /*============Main_Food===========*/
+    #main_food{
+    padding-top: 90px;
+    width:80%;
+    margin:auto;
+    }
+    /*============Main_Drinks===========*/
+    #main_drinks{
+        padding-top: 90px;
+        width:80%;
+        margin:auto;
+    }
+    /*============Main_Salad===========*/
+    #main_salad{
+        padding-top: 90px;
+        width:80%;
+        margin:auto;
+    }
+    /*============Main_Sides===========*/
+    #main_sides{
+        padding-top: 90px;
+        width:80%;
+        margin:auto;
+    }
+    /*============Main_special===========*/
+    #main_specials{
+        padding-top: 90px;
+        width:80%;
+        margin:auto;
+    }
+    /*============Table===========*/
+    #main td{
+    height: 40px;
+    border-bottom: 0.5px solid gray;
+    }
+    #left img{
+        width: 100px;
+        height: 80px;
+    }
+}
+@media only screen and (min-width:1000px){
+    /*=============main==========*/
+    #main{
+        padding-top: 50px;
+        margin: auto;
+        width:70%;
+        height:100%;
+    }
+    #main table{
+        width:60%;
+        margin:auto;
+    }
+    #main h1{
+        font-weight: 600;
+        text-align: center;
+        font-family:'Courier New', Courier, monospace;
+    }
+    /*============Main_Food===========*/
+        #main_food{
+        padding-top: 90px;
+        width:60%;
+        margin:auto;
+        }
+        #main_food img{
+            padding-left: 25%;
+            padding-right: 25%;
+        }
+        /*============Main_Drinks===========*/
+        #main_drinks{
+            padding-top: 90px;
+            width:60%;
+            margin:auto;
+        }
+        #main_drinks img{
+            padding-left: 25%;
+            padding-right: 25%;
+        }
+        /*============Main_Salad===========*/
+        #main_salad{
+            padding-top: 90px;
+            width:60%;
+            margin:auto;
+        }
+        #main_salad img{
+            padding-left: 25%;
+            padding-right: 25%;
+        }
+        /*============Main_Sides===========*/
+        #main_sides{
+            padding-top: 90px;
+            width:60%;
+            margin:auto;
+        }
+        #main_sides img{
+            padding-left: 25%;
+            padding-right: 25%;
+        }
+        /*============Main_special===========*/
+        #main_specials{
+            padding-top: 90px;
+            width:60%;
+            margin:auto;
+        }
+        #main_specials img{
+            padding-left: 25%;
+            padding-right: 25%;
+        }
+    /*============Table===========*/
+    #main td{
+        height: 60px;
+        border-bottom: 1px solid gray;
+    }
+    #left img{
+        width: 120px;
+        height: 100px;
+    }
+    /*==========Order===========*/
+.order{
+    padding-top:70px;
+    height:100%;
+    width:70%;
+    margin:auto;
+    border:2px double darkgrey;
+}
+.order img{
+    Width:100%;
+    height:70%;
+    padding: 2px;
+    margin: auto;
+}
+}
+@media only screen and (min-width:1500px){
+    /*=============main==========*/
+    #main{
+        padding-top: 50px;
+        margin: auto;
+        width:40%;
+        height:100%;
+    }
+    #main table{
+        width:40%;
+        margin:auto;
+    }
+    #main h1{
+        font-weight: 800;
+        text-align: center;
+        font-family:'Courier New', Courier, monospace;
+    }
+    /*============Main_Food===========*/
+    #main_food{
+        padding-top: 90px;
+        width:40%;
+        margin:auto;
+    }
+    #main_food img{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    /*============Main_Drinks===========*/
+    #main_drinks{
+        padding-top: 90px;
+        width:40%;
+        margin:auto;
+    }
+    #main_drinks img{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    /*============Main_Salad===========*/
+    #main_salad{
+        padding-top: 90px;
+        width:40%;
+        margin:auto;
+    }
+    #main_salad img{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    /*============Main_Sides===========*/
+    #main_sides{
+        padding-top: 90px;
+        width:40%;
+        margin:auto;
+    }
+    #main_sides img{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    /*============Main_special===========*/
+    #main_specials{
+        padding-top: 90px;
+        width:40%;
+        margin:auto;
+    }
+    #main_specials img{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    /*============Table===========*/
+    #main td{
+        height: 60px;
+        border-bottom: 1px solid gray;
+    }
+    #left img{
+        width: 140px;
+        height: 120px;
+    }
+}
+@media only screen and (min-width:720px){
+    .home{
+        background-image: url('images/bg_02.jpg');
+    }
+}
